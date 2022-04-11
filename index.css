@@ -9,16 +9,31 @@
     
 }
 
+#navBar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 7.5%;
+    
+}
+
+.img{
+    height: 100%;
+    width: 100%;
+}
+
 #agro{
     font-size: 1.5vw;
     font-weight: 500;
-    width: 9.8%;
-    margin: 0 0 0 45%;
+    /* width: 9.8%; */
+    /* margin: 0 0 0 45%; */
     color: white;
     background-color: green;
     display: flex;
     justify-content: space-between;
-    padding: 0 .5%;
+    padding: 0 5%;
     box-sizing: border-box;
 }
 
