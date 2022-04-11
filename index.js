@@ -29,6 +29,16 @@ let products = [
 
 let main = document.getElementById("main")
 
+products.forEach((product)=>{
+    
+     let Div = document.createElement("div")
+     Div.style.width = "100%"
+     Div.style
+
+})
+
+
+
 
 
 
