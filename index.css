@@ -27,8 +27,6 @@
 #agro{
     font-size: 1.5vw;
     font-weight: 500;
-    /* width: 9.8%; */
-    /* margin: 0 0 0 45%; */
     color: white;
     background-color: green;
     display: flex;
@@ -38,13 +36,27 @@
 }
 
 #cat{
-    width: 60%;
-    margin: 0 0 0 12%;
+    width: 30%;
+    margin: 1%   0 0 45%;
     display: flex;
     justify-content: space-between;
+    font-size: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#cat>span:hover{
+    color: green;
+    transition: .2s linear;
+}
+
+#aboutTagLine{
+    font-size: .9vw;
+    margin: -.5% 0 0 7.4%;
+    font-weight: 600;
 }
 
 div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
