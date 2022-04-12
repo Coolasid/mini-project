@@ -1,100 +1,115 @@
-*{
-    font-family: 'Anek Tamil', sans-serif;}
-#heading{
-    text-align: center;
-    font-size: 2.5vw;
-    font-weight: 600;
-    color: red
-    
+* {
+  font-family: 'Anek Tamil', sans-serif;
 }
 
-#navBar{
-    display: flex;
-    align-items: center;
+html{
+    scroll-behavior: smooth;
 }
 
-#logo{
-    width: 7.5%;
-    
-}
-body{
-    background-color: #97f397;
-}
-.img{
-    height: 100%;
-    width: 100%;
+#heading {
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: red;
 }
 
-#agro{
-    font-size: 1.5vw;
-    font-weight: 500;
-    color: white;
-    background-color: green;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
-    box-sizing: border-box;
+#navBar {
+  display: flex;
+  align-items: center;
 }
 
-#cat{
-    width: 30%;
-    margin: 1%   0 0 45%;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1vw;
-    font-weight: 600;
+#logo {
+  width: 7.5%;
+}
+body {
+  background-color: #97f397;
+}
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+#agro {
+  font-size: 1.5vw;
+  font-weight: 500;
+  color: white;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+#cat {
+  width: 30%;
+  margin: 1% 0 0 45%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+#cat > a {
+  text-decoration: none;
+  color: black;
+}
+
+#cat > span:hover {
+  color: green;
+  transition: 0.2s linear;
+}
+
+#aboutTagLine {
+  font-size: 0.9vw;
+  margin: -0.5% 0 0 7.4%;
+  font-weight: 600;
+}
+
+#footBox {
+  width: 80%;
+  margin: 2% auto auto auto;
+  height: 200px;
+}
+
+#importText {
+  text-align: center;
+  font-size: 0.95vw;
+  font-weight: 600;
+}
+
+#headName {
+  font-size: 2.2vw;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0.2%;
+}
+
+#fullAdd {
+  text-align: center;
+
+  font-weight: 600;
+  margin-top: 0.2%;
+}
+
+#emailDiv {
+  text-align: center;
+  font-size: 1.1vw;
+  font-weight: 600;
+  padding: 0.2% 0 2% 0;
+}
+
+#top{
+    text-align: end;
     cursor: pointer;
-}
-
-#cat>span:hover{
-    color: green;
-    transition: .2s linear;
-}
-
-#aboutTagLine{
-    font-size: .9vw;
-    margin: -.5% 0 0 7.4%;
     font-weight: 600;
 }
 
-
-#footBox{
-    width: 80%;
-    margin: 2% auto auto auto;
-    height: 200px;
-}
-
-#importText{
-    text-align: center;
-    font-size: .95vw;
-    font-weight: 600;
-}
-
-#headName{
-    font-size: 2.2vw;
-    text-align: center;
-    font-weight: 600;
-    margin-top: .2%;
+#top>a{
     
+    text-decoration: none;
+    color: black;
 }
 
-#fullAdd{
-    text-align: center;
-    
-    font-weight: 600;
-    margin-top: .2%;
-}
-
-#emailDiv{
-    
-    text-align: center;
-    font-size: 1.1vw;
-    font-weight: 600;
-    padding: .2% 0 2% 0;
-
-}
-
-div{
-    /* border: 1px solid black; */
-
+div {
+  /* border: 1px solid black; */
 }
