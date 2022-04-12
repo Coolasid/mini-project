@@ -1,6 +1,5 @@
 *{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+    font-family: 'Anek Tamil', sans-serif;}
 #heading{
     text-align: center;
     font-size: 2.5vw;
@@ -56,6 +55,43 @@ body{
     font-size: .9vw;
     margin: -.5% 0 0 7.4%;
     font-weight: 600;
+}
+
+
+#footBox{
+    width: 80%;
+    margin: 2% auto auto auto;
+    height: 200px;
+}
+
+#importText{
+    text-align: center;
+    font-size: .95vw;
+    font-weight: 600;
+}
+
+#headName{
+    font-size: 2.2vw;
+    text-align: center;
+    font-weight: 600;
+    margin-top: .2%;
+    
+}
+
+#fullAdd{
+    text-align: center;
+    
+    font-weight: 600;
+    margin-top: .2%;
+}
+
+#emailDiv{
+    
+    text-align: center;
+    font-size: 1.1vw;
+    font-weight: 600;
+    padding: .2% 0 2% 0;
+
 }
 
 div{
