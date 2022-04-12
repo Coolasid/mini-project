@@ -132,6 +132,7 @@ products.forEach((product) => {
   Div.style.boxShadow = ' rgba(0, 0, 0, 0.35) 0px 5px 15px';
   Div.style.padding = "1% 0"
   Div.style.backgroundColor = '#d0ffd0';
+  Div.style.borderRadius = "15px"
 
   
     let imgDiv = document.createElement("img")
